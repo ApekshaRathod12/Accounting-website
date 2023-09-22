@@ -1,0 +1,77 @@
+.nav-container{
+    display: flex;
+}
+
+.nav-left{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 35%;
+    height: 65%;
+}
+
+.nav-heading{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-right ,  .menu-link , .mobile-menu-link{
+    width: 60%;
+    height: 65%;
+    padding-top: 2%;
+}
+
+.nav-ul{
+    display: flex;
+    padding-left: 55%;
+    gap: 15%;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-li{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu-link {
+    grid-column: 3/4;
+  }
+  
+  .menu-link ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.hamburger-menu{
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    .nav-right , .menu-link , .mobile-menu-link {
+        display: none;
+    }
+    .nav-left{
+        width: 100%;
+    }
+    .logo{
+        width: 45%;
+    }
+    .nav-heading{
+        font-size: 23px;
+    }
+    .hamburger-menu{
+        display: block;
+        padding: 6%;
+    }
+    
+}
