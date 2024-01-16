@@ -13,7 +13,7 @@ function Nav() {
     <div className='nav-container'>
     <div className='nav-left'>
     <img src={logo} alt="/" className='logo'></img>
-    <h2 className='nav-heading'>XYZ</h2>
+    <h2 className='nav-heading'>True Vibe Properties</h2>
     </div>
 
 
